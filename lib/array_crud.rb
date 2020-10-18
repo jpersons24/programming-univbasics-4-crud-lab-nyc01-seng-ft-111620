@@ -35,7 +35,5 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-  first_array = array.delete_at(index_number)
-  updated_array = first_array << element
-  updated_array
+  array[index_number] = element
 end
